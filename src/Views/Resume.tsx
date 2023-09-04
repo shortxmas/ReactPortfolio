@@ -83,8 +83,8 @@ export function Resume(){
                 <div>
                     <h3>Skills</h3>
                     <p>
-                    Java, HTML/CSS (Bootstrap 5), JavaScript (Vue.js), PhP, MySQL,
-                    Git, Computer Literate, Adaptable, Fast Learner,
+                    Java, HTML/CSS (Bootstrap 5), JavaScript (React, Vue.js), PhP, MySQL,
+                    Git, Computer Literate, Adaptable, Fast Learner
                     </p>
                 </div>
                 <div>
