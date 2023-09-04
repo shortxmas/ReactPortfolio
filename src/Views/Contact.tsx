@@ -25,8 +25,8 @@ export function Contact(){
                 {/* <button type=submit class="btn btn-primary mb-2" style= "margin-top: 15px; padding: 5px;">Submit</button> */}
                 <button
                 type="submit"
-                className="btn btn-dark"
-                style={{ marginTop: 15, padding: 5, color: "#B2DFBF" }}
+                className="btn btn-success "
+                style={{ marginTop: 15, padding: 5, backgroundColor:'#137a63'}}
                 >
                 Submit
                 </button>
