@@ -8,6 +8,7 @@ export function Home(){
     const [info,showInfo] = useState('none')
     const [moreButton,changeMoreButton] = useState('')
     const [lessButton,changeLessButton] = useState('none')
+    const [width,changeWidth] = useState('col-md-4 col-7')
 
     return(
         <>
@@ -56,7 +57,7 @@ export function Home(){
             className="row justify-content-center"
             style={{ textAlign: "center", paddingTop: 50 }}
             >
-            <div className="col-lg-8 col-12">
+            <div className={width}>
                 <div className="box">
                 <div
                     className="card-body text-bg-light p-3"
@@ -103,6 +104,8 @@ export function Home(){
                             showInfo('none');
                             changeMoreButton('');
                             changeLessButton('none');
+                            changeWidth('col-md-4 col-7')
+                            
 
                         }}>Collapse</button>
                     </div>
@@ -113,6 +116,7 @@ export function Home(){
                             showInfo('');
                             changeMoreButton('none');
                             changeLessButton('');
+                            changeWidth('col-lg-8 col-12')
                         }}>Expand</button>
                     </div>
 
