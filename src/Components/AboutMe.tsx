@@ -4,7 +4,7 @@ export const AboutMe = () =>{
 
     return(
         <>
-            <div className="container py-5" >
+            <div className="container" style={{paddingTop:100,paddingBottom:100}}>
             <div
             className="row justify-content-center"
             style={{ textAlign: "center",}}

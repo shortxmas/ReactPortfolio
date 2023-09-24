@@ -36,8 +36,8 @@ export const Projects = ()=>{
             
 
 
-           <div className="py-5">
-            <h1 style={{textAlign:"center"}}>Projects</h1>
+           <div style={{paddingTop:100,paddingBottom:100}}>
+            <h1  style={{textAlign:"center"}}>Projects</h1>
            <div className=" d-flex  justify-content-center" >
                 
                     

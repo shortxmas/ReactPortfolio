@@ -3,7 +3,7 @@ export const Contact = () =>{
 
 
         <>
-            <div className="py-5">
+            <div style={{paddingTop:100,paddingBottom:100}}>
             <h1 style={{textAlign:"center"}}>Contact</h1>
            <div className="d-flex justify-content-center" >
                 
