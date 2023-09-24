@@ -6,8 +6,8 @@ export const Top = ()=>{
         <>
             <div className="container">
             <div
-            className="row  justify-content-center align-items-center"
-            style={{ paddingTop: 75 }}
+            className="row  justify-content-center align-items-center py-5"
+            
             >
             <div className="col-lg-5 col-12 ">
                 <div className="box ">
