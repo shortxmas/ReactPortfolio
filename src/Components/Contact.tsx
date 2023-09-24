@@ -1,12 +1,17 @@
-export function Contact(){
-    document.title = "Contact"
+export const Contact = () =>{
     return(
-        <div className="container" style={{ padding: 50 }}>
-            <div className="jumbotron">
-                <h1> Contact</h1>
-            </div>
-            {/* <form action="https://backendform.com/sendform.php/leightonmiguelweb@gmail.com" method = "post" > */}
-            <form
+
+
+        <>
+            <div className="py-5">
+            <h1 style={{textAlign:"center"}}>Contact</h1>
+           <div className="d-flex justify-content-center" >
+                
+                    
+                <div className="col-lg-5 col-11  " >
+                    
+
+                <form
                 action="https://backendform.com/sendform.php/leightonmiguelweb@gmail.com"
                 method="get"
             >
@@ -42,8 +47,14 @@ export function Contact(){
                 <a href="https://backendform.com">backendform.com</a> for all form
                 submissions.
             </div>
-        </div>
 
+                    
+                </div>
+   
+           </div>
+
+            </div>
+
+        </>
     )
-
 }

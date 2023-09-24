@@ -1,7 +1,7 @@
-import { BrowserRouter,Link} from "react-router-dom";
+
 
 import Logo from "../assets/logoletters4.png"
-import { RouterLinks } from "./Routes";
+
 
 
 
@@ -14,17 +14,17 @@ export function Navbar()
   return (
     <>
       
-    <BrowserRouter>
-        <div className="navbar navbar-expand-lg navbar-dark  bg-dark" >
+    
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark " >
             <div className="container">
 
                 <a className="navbar-brand">
             
-                    <Link to="/" style={{ textDecoration: 'none'}}>
-                        <a className="nav-link">
-                            <img src={Logo} width="85" className="d-inline-block align-top"></img>
+                    
+                        <a className="nav-link" href="#top">
+                            <img src={Logo} width="50" className="d-inline-block align-top"></img>
                         </a>
-                    </Link>
+                   
                     
 
                 </a>
@@ -41,30 +41,30 @@ export function Navbar()
                 <div className= "collapse navbar-collapse"  id="nav">
                     <ul className="navbar-nav navbar-right nav-routes">
                     
-                    <Link to="/" style={{ textDecoration: 'none' }}>
+                    
+                      
                         <li className="nav-item">
-                            <a className="nav-link">Home</a>
+                            <a href="#aboutme" className="nav-link">About me</a>
                         </li>
-                    </Link>
 
-                    <Link to="/resume" style={{ textDecoration: 'none' }}>
+                    
                         <li className="nav-item">
-                            <a className="nav-link">Resume</a>
+                            <a href="#resume" className="nav-link">Resume</a>
                         </li>
-                    </Link>
+                   
 
-                    <Link to="/projects" style={{ textDecoration: 'none' }}>
+                  
                         <li className="nav-item">
-                            <a className="nav-link">Projects</a>
+                            <a href="#projects" className="nav-link">Projects</a>
                         </li>
-                    </Link>
+                  
                     
 
-                    <Link to="/contact" style={{ textDecoration: 'none' }}>
+                 
                         <li className="nav-item">
-                            <a className="nav-link">Contact</a>
+                            <a href="#contact" className="nav-link">Contact</a>
                         </li>
-                    </Link>
+                  
 
                     </ul>
                 </div>
@@ -76,16 +76,18 @@ export function Navbar()
                     </h6>
                 </span>
         
-            
+             
+
             </div>
+            
         
-        
-        </div>
-        <RouterLinks/>
+        </nav>
+       
+       
 
         
 
-    </BrowserRouter>
+    
       
       
 
