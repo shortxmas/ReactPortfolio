@@ -12,8 +12,8 @@ export const Contact = () =>{
                     
 
                 <form
-                action="https://backendform.com/sendform.php/leightonmiguelweb@gmail.com"
-                method="get"
+                action="https://api.backendform.com/sendform/leightonmiguelweb@gmail.com"
+                method="post"
             >
                 <label htmlFor="name" className="form-label">
                 Name
@@ -35,7 +35,7 @@ export const Contact = () =>{
                 >
                 Submit
                 </button>
-                <input type="hidden" name="fromwebsite" defaultValue="portolio website" />
+                <input type="hidden" name="from" defaultValue="Portolio website" />
                 <input
                 name="redirect"
                 defaultValue="https://leightonmiguel.com"
